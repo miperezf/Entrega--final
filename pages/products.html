@@ -11,20 +11,26 @@
     </head>
 <body class="grid-container">
     <header class="encabezado">
-        <nav class="navMenu">
-            <ul class="nav justify-content-center">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="../pages/contactus.html">Contact us</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="../pages/blog.html">Blog</a>
-                </li>
-              </ul>
-        </nav>
-    </header>
+      <section class="navigation">
+        <div class="nav-container">
+          <div class="brand">
+            <a href="#!"><img src="../icon/178069-200.png" alt="" class="brand-logo">succulents Gardens
+            </a>
+          </div>
+          <nav>
+            <div class="nav-mobile">
+              <a id="nav-toggle" href="#!"><span></span></a>
+            </div>
+            <ul class="nav-list">
+              <!-- Setting the links to #! will ensure that no action takes place on click. -->
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="./products.html">Products</a></li>
+              <li><a href="./blog.html">Blog</a></li>
+              <li><a href="./contactus.html">Contact Us</a></li>
+            </ul>
+          </nav>
+        </div>
+      </section>
     </header>
     <article class="main">
         <div class="card">
@@ -85,11 +91,22 @@
           </div>
           
     </article>
-    <footer class="footer-container">
-        <div class="copy-rigth">
-            <p>© Todos los derechos reservados 2022</p>
-        </div>
-    </footer>
+    <div class="footer-basic">
+      <footer>
+          <div class="social">
+            <a href="https://www.instagram.com/" target="_blank"><i class="icon ion-social-instagram"></i><img src="../icon/social-instagram-outline_icon-icons.com_50012.png" alt="instagram"></a>
+            <a href="https://es-la.facebook.com/" target="_blank"><i class="icon ion-social-facebook"></i><img src="../icon/social-facebook_icon-icons.com_50024.png" alt="facebook"></a>
+            <a href="https://twitter.com/?lang=es" target="_blank"><i class="icon ion-social-twitter"></i><img src="../icon/social-twitter-outline_icon-icons.com_49997.png" alt="twitter"></a>
+            <a href="https://www.tiktok.com/" target="_blank"><i class="icon ion-social-tiktok"></i><img src="../icon/tiktok_logo_icon_144802.png" alt="tiktok"></a>
+          </div>
+          <ul class="list-inline">
+              <li class="list-inline-item"><a href="../index.html">Home</a></li>
+              <li class="list-inline-item"><a href="#">Services</a></li>
+              <li class="list-inline-item"><a href="#">About</a></li>
+          </ul>
+          <p class="copyright">Todos los derechos reservados © 2022</p>
+      </footer>
+  </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </body>
